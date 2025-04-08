@@ -22,9 +22,10 @@
       "class Solution:",
       "",
       "def main():",
-      "        ",
+      "   raise NotImplemented",
       "",
-      "if __name__ == '__main__':"
+      "if __name__ == '__main__':",
+      "   main()"
     ],
     "description": "Insert a Python Solution class template"
   }
