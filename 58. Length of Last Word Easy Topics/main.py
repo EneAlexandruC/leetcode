@@ -1,12 +1,6 @@
 class Solution:
     def lengthOfLastWord(self, s: str) -> int:
-        words = s.split()
-        letters = 0
-
-        for word in words:
-            letters = max(letters, len(word))
-        
-        return letters
+        return len(s.split()[-1])
 
 def main():
     s = Solution()
