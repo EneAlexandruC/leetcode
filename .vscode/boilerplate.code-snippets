@@ -22,7 +22,7 @@
       "class Solution:",
       "",
       "def main():",
-      "    raise NotImplemented",
+      "    s = Solution()",
       "",
       "if __name__ == '__main__':",
       "    main()"
